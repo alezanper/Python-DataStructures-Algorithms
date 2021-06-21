@@ -12,7 +12,7 @@ def string_compression(text):
             dictionary[letter] += 1
     
     for key in dictionary.keys():
-        print(key + str(dictionary[key]), end="")
-    return ""
+        compress += key + str(dictionary[key])
+    return compress
 
-string_compression("AAAABBBBCCCCCDDEEEE")   # A4B4C5D2E4
+print(string_compression("AAAABBBBCCCCCDDEEEE"))   # A4B4C5D2E4
