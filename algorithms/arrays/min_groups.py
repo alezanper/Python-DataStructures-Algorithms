@@ -3,9 +3,9 @@ def mingroups(arr, max):
     i=1
     g=0
     while(k>0):
-        k = len(arr)
 
         while(True):
+            k = len(arr)
 
             if (k==1):
                 g += 1
@@ -19,7 +19,6 @@ def mingroups(arr, max):
             if k == i:
                 del(arr[0])
                 break
-        k = len(arr)
         g += 1
         i = 1
     return g
