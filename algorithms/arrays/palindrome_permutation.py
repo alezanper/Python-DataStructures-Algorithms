@@ -18,7 +18,7 @@ def palindrome_permutation(string):
             dictionary[character] = 1
 
     for count in dictionary.values():
-        if count not in (1, 2):
+        if count % 2 != 0 and count != 1:
             return False
         if count == 1:
             ones += 1
@@ -30,3 +30,4 @@ def palindrome_permutation(string):
 
 print(palindrome_permutation("Tact Coa"))
 print(palindrome_permutation("Tact Coas"))
+print(palindrome_permutation("lllla"))
