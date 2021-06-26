@@ -17,6 +17,6 @@ def pair_sum(array, sum):
 
     return len(output)
 
-a = [1,3,2,2]
-sum = 4
+a = [1,3,2,2,0,5,6,7]
+sum = 6
 print(pair_sum(a,sum))
