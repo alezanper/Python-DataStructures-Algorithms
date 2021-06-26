@@ -2,7 +2,7 @@ def mingroupsroups(arr, max):
     k = len(arr)
     i = 1
     groups=0
-    while(k>0):
+    while(k > 0):
 
         while(True):
             k = len(arr)
