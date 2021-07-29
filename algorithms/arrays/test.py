@@ -1,20 +1,19 @@
-# given an array [2,3,4,5,6,1,4,1,4,1] find the couples that can sum 7
+# Given an integer array, output all the unique pairs that sum up to a specific value k
+# pair_sum([1,3,2,2], 4)  returns 2 (1,3) and (2,2)
 
-def sum(arr, sum):
-	couples = []
-	seen = set()
-	
+def sum (arr, sum):
+
 	target = 0
-	i = 1
-	
-	for i in range(len(arr)):
-		target = sum - arr[i]
-		
-		if target not in seen:
-			seen.add(arr[i])
-		else:
-			couples.append([arr[i], sum - arr[i]])
+	seen = set()
+	couples = []
 
+	for num in arr:
+		target = sum - num
+		if target not in seen:
+			seen.add(num)
+		else:
+			couples.append([num, sum-num])
+	
 	return couples
 
-print(sum([8,2,3,4,5,6,1], 7))
+print(sum([3,5,0,4,2,2,1], 4))
