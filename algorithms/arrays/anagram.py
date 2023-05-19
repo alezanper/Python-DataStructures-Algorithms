@@ -1,6 +1,5 @@
 def isAnagram(a, b):
 
-
     # Preparation
     a = a.replace(" ", "")
     b = b.replace(" ", "")
@@ -35,4 +34,9 @@ def isAnagram(a, b):
     
     return True
 
-print(isAnagram('dooiig', 'gooiod'))
+
+def main():
+    print(isAnagram('dooiig', 'gooiod'))
+
+if __name__ == '__main__':
+    main()

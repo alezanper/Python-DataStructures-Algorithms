@@ -1,7 +1,8 @@
 from abc import abstractproperty
 
 
-# Consider an array non-negative integers. A second array is formed by shuffling the elements of the first array and deleting a random element. Given these two arrays. Find which element is missing in the second abstractproperty
+# Consider an array non-negative integers. A second array is formed by shuffling the elements of the first array and 
+# deleting a random element. Given these two arrays. Find which element is missing in the second abstractproperty
 # finder([1,2,3,4,5,6,7], [3,7,2,1,4,6])    # Returns 5
 
 def missing_element(a, b):

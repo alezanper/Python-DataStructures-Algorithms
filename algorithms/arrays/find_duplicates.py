@@ -14,4 +14,8 @@ def find_duplicates(arr):
     
     return duplicates
 
-print(find_duplicates([1,2,3,4,6,7,2,3]))
+def main():
+    print(find_duplicates([1,2,3,4,6,7,2,3]))
+
+if __name__ == '__main__':
+    main()
