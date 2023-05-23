@@ -1,0 +1,12 @@
+juan,404,error
+maria,200,sucessfully
+pedro,404,error
+andrea,200,sucessfully
+marcos,404,error
+esteban,200,sucessfully
+juan,503,error
+maria,200,sucessfully
+pedro,503,error
+kelly,200,sucessfully
+marcos,305,redirection
+maria,200,sucessfully
